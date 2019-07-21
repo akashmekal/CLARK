@@ -1,0 +1,26 @@
+This is an Behavior Driven Deployment (BDD) Automation Framework using Selenium with Cucumber.
+I have used Java as binding language to transfer the api calls to JSON wire protocol and then to http over HTTP Server.
+
+
+Framework is build on Maven project which has 3 modules in it:
+-	src/main/java: 
+			Base class : This is where we define all the basic actions related to keyboard, mouse and customer actions along with driver and test global (Base Actions, Driver Manager, Element Actions and GLOBAL)
+			Page Object Model : This is where we store all the methods and web locator of every page on the given application as a class.
+			Utilities : This is an supporting module which helps us to read data from external files or create a helper class.(Excel Util, Config Util, File Util , Log)
+-	src/main/test:
+			Test Runner : This is an Entry point of the framework where we have defined the path of feature file, step definition and cucumber annotations 
+			Step Defination : This is where you define/ call the methods which are mapped to feature file
+-	src/test/resouces:
+			Config : We keep the actual config property and log4j xml in this folder
+			Driver : all your driver exe’s resides here
+			Feature : Cucumber feature file resides here which we write in Gherkin language
+			Rundata : Test Data usually with excel file are stored out here
+
+Then we have target folder where you can see the test result , we have used Extend Report for reporting.
+
+
+
+To Run a given feature file:
+	1.	Check the tag in feature file (the one with ‘@’ above keyword ‘Scenario’)
+	2.	Go to Test Runner Class (src/main/test) and change the tag
+	3.	Run the Test Runner Class (Right Click -> Run As -> TestNg Test)

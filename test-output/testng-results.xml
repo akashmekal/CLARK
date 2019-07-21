@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I am on Clark - The Insurance Manager Home Page (PASSED : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I Log In into the Web Application (PASSED : 14s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">In Vertrage tab I assert that there are &quot;3&quot; contracts with &quot;Gut versichert&quot; (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">In the tab Rente I assert that Dein Renteneinkommen ist above &quot;2400&quot; Euro (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">In the tab Bedarf I assert Du hast alle empfohlenen Produkte is displayed in the left column (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on Clark jetzt empfehlen and invite a friend  &quot;akashmekal@mailinator.com&quot; and i assert the the message (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I Take a Screenshot (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47608" started-at="2019-07-21T13:14:14Z" finished-at="2019-07-21T13:15:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47608" started-at="2019-07-21T13:14:14Z" finished-at="2019-07-21T13:15:02Z">
+      <class name="test.Runners.TestRunner">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:test.Runners.TestRunner@706a04ae]" name="setUP" is-config="true" duration-ms="996" started-at="2019-07-21T13:14:14Z" finished-at="2019-07-21T13:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="setTestPrerequisite()[pri:0, instance:test.Runners.TestRunner@706a04ae]" name="setTestPrerequisite" is-config="true" duration-ms="7898" started-at="2019-07-21T13:14:16Z" finished-at="2019-07-21T13:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestPrerequisite -->
+        <test-method status="PASS" signature="login(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.Runners.TestRunner@706a04ae]" name="login" duration-ms="37706" started-at="2019-07-21T13:14:24Z" description="login" data-provider="features" finished-at="2019-07-21T13:15:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Logs in the web application and assert desired fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This is a Smoke Test case for Logged in User on Clark Web Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I am on Clark - The Insurance Manager Home Page (PASSED : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I Log In into the Web Application (PASSED : 14s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">In Vertrage tab I assert that there are &quot;3&quot; contracts with &quot;Gut versichert&quot; (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">In the tab Rente I assert that Dein Renteneinkommen ist above &quot;2400&quot; Euro (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">In the tab Bedarf I assert Du hast alle empfohlenen Produkte is displayed in the left column (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on Clark jetzt empfehlen and invite a friend  &quot;akashmekal@mailinator.com&quot; and i assert the the message (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I Take a Screenshot (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testClosure(org.testng.ITestResult)[pri:0, instance:test.Runners.TestRunner@706a04ae]" name="testClosure" is-config="true" duration-ms="19" started-at="2019-07-21T13:15:01Z" finished-at="2019-07-21T13:15:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TestRunner.login(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.Runners.TestRunner@706a04ae] output=<div "result">I am on Clark - The Insurance Manager Home Page (PASSED : 10s)</div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClosure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Runners.TestRunner@706a04ae]" name="tearDown" is-config="true" duration-ms="726" started-at="2019-07-21T13:15:01Z" finished-at="2019-07-21T13:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Runners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
